@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+    <style>
+        body, html{
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            padding-top: 7px;
+            flex-wrap: wrap;
+        }
+        .grid-container1s{
+            display: grid;
+            grid-column-gap: 25px;
+            grid-template-columns: repeat(3, 249px);
+            grid-template-rows: repeat(1, 327px);
+            
+
+        }
+        .card1{
+            
+            border-radius: 10px;
+            background-image: url(1.PNG);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position:center ;
+            
+    
+        }
+        .card2{
+            
+            border-radius: 10px;
+            background-image: url(2.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position:center ;
+        }
+        .card3{
+            background-color: cornflowerblue;
+            border-radius: 10px;
+            background-image: url(3.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position:center ;
+        }
+        .grid-container2s{
+            display: grid;
+            grid-template-columns: repeat(1, 803px);
+            grid-template-rows: repeat(2, 194px);
+            grid-row-gap: 15px;
+            margin-top: 10px;
+        }
+        .card4{
+            background-color: khaki;
+            border-radius: 10px;
+            background-image: url(44.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position:center ;
+        }
+        .card5{
+            background-color: lightgreen;
+            border-radius: 10px;
+            background-image: url(5.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position:center ;
+        }
+        .low-info{
+            height: 100px;
+            width: 100%;
+            background-color: rgb(77, 94, 110);
+            margin-top: 15px;
+            font-family: 'Ranchers', cursive;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5em;
+         }
+    </style>
+
+    
+</head>
+<body>
+   
+    <div class="grid-container1s">
+        <div class="card1"></div>
+        <div class="card2"></div>
+        <div class="card3"></div>
+    </div>
+    <div class="grid-container2s">
+        <div class="card4"></div>
+        <div class="card5"></div>
+    </div>
+<div class="low-info">Comics by me (ps: законы физики не учитывались)</div>
+</body>
+</html>
